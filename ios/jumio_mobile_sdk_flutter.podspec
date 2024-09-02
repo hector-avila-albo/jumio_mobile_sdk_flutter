@@ -17,6 +17,7 @@ Pod::Spec.new do |s|
   s.resources    = ['Assets/**.*']
   s.requires_arc = true
 
+  s.dependency 'Flutter'
   s.dependency "Jumio/Jumio", "~> 4.10.0"
   s.dependency "Jumio/Liveness", "~> 4.10.0"
   s.dependency "Jumio/IProov", "~> 4.10.0"
